@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  jpa-entity-graph:
+    container_name: jpa-entity-graph
+    image: jpa-entity-graph:latest
+    build: ./
+    ports:
+      - 8080:8080

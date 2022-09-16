@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "bce05cb2-09e8-4859-921e-b9ab38b57973",
+		"name": "jpa-entity-graph",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "artistByName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/findArtistByName/Ataque 77",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"findArtistByName",
+						"Ataque 77"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "albumByDescription",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/findAlbumByDescription/Dulce Navidad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"findAlbumByDescription",
+						"Dulce Navidad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "albumWithArtistByDescription",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/findAlbumWithArtistByDescription/Dulce Navidad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"findAlbumWithArtistByDescription",
+						"Dulce Navidad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "albumWithArtistAndSongsByDescription",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/findAlbumWithArtistAndSongsByDescription/Dulce Navidad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"findAlbumWithArtistAndSongsByDescription",
+						"Dulce Navidad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "egAlbumWithArtistByDescription",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/eg/findAlbumWithArtistByDescription/Dulce Navidad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"eg",
+						"findAlbumWithArtistByDescription",
+						"Dulce Navidad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "egAlbumWithArtistAndSongsByDescription",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/eg/findAlbumWithArtistAndSongsByDescription/Dulce Navidad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"eg",
+						"findAlbumWithArtistAndSongsByDescription",
+						"Dulce Navidad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "egAlbumWithArtistAndSongsGenreByDescription",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/eg/findAlbumWithArtistAndSongsGenreByDescription/Dulce Navidad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"eg",
+						"findAlbumWithArtistAndSongsGenreByDescription",
+						"Dulce Navidad"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
