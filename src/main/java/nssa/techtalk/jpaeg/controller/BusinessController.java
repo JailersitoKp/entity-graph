@@ -37,8 +37,8 @@ public class BusinessController {
   @GetMapping(path = "/findAlbumWithArtistByDescription/{albumDescription}")
   @ResponseBody
   public ResponseEntity<AlbumDto> findAlbumWithArtistByDescription(@PathVariable String albumDescription) {
-    //Album album = this.businessService.getAlbumByDescription(albumDescription);
-    Album album = this.businessService.getAlbumWithArtistByDescription(albumDescription);
+    Album album = this.businessService.getAlbumByDescription(albumDescription);
+    //Album album = this.businessService.getAlbumWithArtistByDescription(albumDescription);
     AlbumDto albumDto = new AlbumDto(album, true, false, false);
     return ResponseEntity.ok(albumDto);
   }
