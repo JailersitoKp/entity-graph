@@ -1,8 +1,0 @@
-Entity Graph fue introducido en la versión 2.1 de JPA a fin de mejorar el rendimiento de las consultas que realizamos.
-Hasta JPA 2.0 para consultar una entidad relacionada generalmente utilizabamos: FetchType.LAZY y FetchType.EAGER. Lamentablemente 
-esta configuración es estática y no la podemos modificar en tiempo de ejecución.
-A su vez existe la desventaja que a medida que solicitamos entidades relacionadas con FetchType.LAZY se generan consultas extras (N+1 queries).
-
-Entity Graph es independiente de la consulta y en el se definen que atributos obtener (bd). 
-Entity Graph permite definir un template "Grafo" agrupando los atributos de persistencia relacionados que queremos obtener en una sola consulta (quey), 
-además nos permite elegir el template "Grafo" en tiempo de ejecución.
