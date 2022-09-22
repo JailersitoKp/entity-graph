@@ -18,6 +18,7 @@ git clone https://github.com/JailersitoKp/entity-graph.git
 ### Iniciar proyecto con docker
 ```
 mvn clean package
+cd entity-graph
 sudo docker-compose -f docker-compose.yml up --build
 ```
 
