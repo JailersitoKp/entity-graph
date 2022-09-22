@@ -19,7 +19,8 @@ git clone https://github.com/JailersitoKp/entity-graph.git
 ```
 mvn clean package
 cd entity-graph
-sudo docker-compose -f docker-compose.yml up --build
+sudo docker-compose -f docker-compose.yml up --build (Linux)
+docker compose -f docker-compose.yml up --build (Windows)
 ```
 
 ### H2 Database
